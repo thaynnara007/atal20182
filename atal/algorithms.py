@@ -1,6 +1,7 @@
 #coding: utf-8
 
 import sys
+sys.setrecursionlimit(2000)
 
 # Esse metodo recebe uma lista com as matriculas dos alunos
 # e retorna essa lista em ordem crescente de matriculas
@@ -16,25 +17,49 @@ def retorna_matriculas_decrescente(alist):
 
 # Caso o valor não possa ser alcançado pela combinação de moedas o valor -1 é retornado Ex: valor = 11  moedas = {5, 10, 25}
 # Assuma que existe uma quantidade infinita de cada tipo de moeda
+
+menorQntdMoedas = -1
+visitados = set([])
 def retorna_minimo_moedas(valor, tipos_moedas):
 	print valor, tipos_moedas
-	resultado = retorna_minimo_moedas_FB(tipos_moedas, valor)
-	if resultado == sys.maxint:
-		return -1
-	else:
-		return resultado
 
-def retorna_minimo_moedas_FB(tipos_moedas, valor):
-	if valor == 0:
-		return 0
+	resultado = retornaMinimoMoedas(valor, 0, 0, tipos_moedas, len(tipos_moedas))
 	
-	resultado = sys.maxint
-	
-	for moeda in tipos_moedas:
-		
-		if (moeda <= valor):
-			resultado = min(resultado, retorna_minimo_moedas_FB(tipos_moedas, valor - moeda) + 1) 
-		
-	return resultado	 
+	return menorQntdMoedas
 
+def retornaMinimoMoedas(valorAtual, i , qntdMoedas, moedas, sizeMoedas):
+
+   global menorQntdMoedas
+   
+
+   tupla = (valorAtual, i, qntdMoedas)
+
+   if tupla not in visitados:
+
+        visitados.add((valorAtual, i, qntdMoedas))
+
+        if i < sizeMoedas:
+
+            if valorAtual == 0:
+
+                if menorQntdMoedas == -1:  menorQntdMoedas = qntdMoedas
+
+                else: menorQntdMoedas = min(menorQntdMoedas, qntdMoedas)
+            
+            elif moedas[i] >= 0:
+
+                if i < sizeMoedas -1:
+
+                    valorAddProxMoeda = valorAtual - moedas[i + 1]
+
+                    if valorAddProxMoeda >= 0: 
+                        retornaMinimoMoedas(valorAddProxMoeda, i + 1, qntdMoedas + 1, moedas, sizeMoedas)
+
+                valorAddMesmaMoeda = valorAtual - moedas[i]
+
+                if valorAddMesmaMoeda >= 0:
+                    retornaMinimoMoedas(valorAddMesmaMoeda, i, qntdMoedas + 1, moedas, sizeMoedas)
+                
+                retornaMinimoMoedas(valorAtual, i + 1, qntdMoedas, moedas, sizeMoedas)
+	
 
