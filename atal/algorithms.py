@@ -21,8 +21,9 @@ def retorna_matriculas_decrescente(alist):
 menorQntdMoedas = -1
 visitados = set([])
 def retorna_minimo_moedas(valor, tipos_moedas):
+	
 	print valor, tipos_moedas
-
+    
 	resultado = retornaMinimoMoedas(valor, 0, 0, tipos_moedas, len(tipos_moedas))
 	
 	return menorQntdMoedas
@@ -31,7 +32,6 @@ def retornaMinimoMoedas(valorAtual, i , qntdMoedas, moedas, sizeMoedas):
 
    global menorQntdMoedas
    
-
    tupla = (valorAtual, i, qntdMoedas)
 
    if tupla not in visitados:
@@ -46,7 +46,7 @@ def retornaMinimoMoedas(valorAtual, i , qntdMoedas, moedas, sizeMoedas):
 
                 else: menorQntdMoedas = min(menorQntdMoedas, qntdMoedas)
             
-            elif moedas[i] >= 0:
+            elif moedas[i] <= valorAtual:
 
                 if i < sizeMoedas -1:
 
