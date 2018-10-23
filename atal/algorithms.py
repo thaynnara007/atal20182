@@ -28,7 +28,8 @@ def retorna_minimo_moedas(valor, tipos_moedas):
 
 	resultado = retornaMinimoMoedas(valor, 0, 0, tipos_moedas, len(tipos_moedas))
 	#parte necessaria pois quando a função é chamada no arquivo troco.py as variais globais não sao 'resetadas'
-	x = menorQntdMoedas
+	if menorQntdMoedas == INF: x = -1
+	else: x = menorQntdMoedas
 	menorQntdMoedas = INF
 	visitados = set([])
 	return x
