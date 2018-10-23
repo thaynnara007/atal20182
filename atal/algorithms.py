@@ -2,6 +2,7 @@
 
 import sys
 sys.setrecursionlimit(2000)
+INF = 1000000000
 
 # Esse metodo recebe uma lista com as matriculas dos alunos
 # e retorna essa lista em ordem crescente de matriculas
@@ -22,15 +23,20 @@ menorQntdMoedas = -1
 visitados = set([])
 def retorna_minimo_moedas(valor, tipos_moedas):
 	
-	print valor, tipos_moedas
-    
+	global menorQntdMoedas
+	global visitados
+
 	resultado = retornaMinimoMoedas(valor, 0, 0, tipos_moedas, len(tipos_moedas))
-	
-	return menorQntdMoedas
+	#parte necessaria pois quando a função é chamada no arquivo troco.py as variais globais não sao 'resetadas'
+	x = menorQntdMoedas
+	menorQntdMoedas = -1
+	visitados = set([])
+	return x
 
 def retornaMinimoMoedas(valorAtual, i , qntdMoedas, moedas, sizeMoedas):
 
    global menorQntdMoedas
+   global visitados
    
    tupla = (valorAtual, i, qntdMoedas)
 
