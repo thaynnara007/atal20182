@@ -19,7 +19,7 @@ def retorna_matriculas_decrescente(alist):
 # Caso o valor não possa ser alcançado pela combinação de moedas o valor -1 é retornado Ex: valor = 11  moedas = {5, 10, 25}
 # Assuma que existe uma quantidade infinita de cada tipo de moeda
 
-menorQntdMoedas = -1
+menorQntdMoedas = INF
 visitados = set([])
 def retorna_minimo_moedas(valor, tipos_moedas):
 	
@@ -29,7 +29,7 @@ def retorna_minimo_moedas(valor, tipos_moedas):
 	resultado = retornaMinimoMoedas(valor, 0, 0, tipos_moedas, len(tipos_moedas))
 	#parte necessaria pois quando a função é chamada no arquivo troco.py as variais globais não sao 'resetadas'
 	x = menorQntdMoedas
-	menorQntdMoedas = -1
+	menorQntdMoedas = INF
 	visitados = set([])
 	return x
 
@@ -48,24 +48,26 @@ def retornaMinimoMoedas(valorAtual, i , qntdMoedas, moedas, sizeMoedas):
 
             if valorAtual == 0:
 
-                if menorQntdMoedas == -1:  menorQntdMoedas = qntdMoedas
+                if menorQntdMoedas == INF:  menorQntdMoedas = qntdMoedas
 
                 else: menorQntdMoedas = min(menorQntdMoedas, qntdMoedas)
             
-            elif moedas[i] <= valorAtual:
+            elif qntdMoedas <= menorQntdMoedas:
+            
+				if moedas[i] <= valorAtual:
 
-                if i < sizeMoedas -1:
+					if i < sizeMoedas -1:
 
-                    valorAddProxMoeda = valorAtual - moedas[i + 1]
+						valorAddProxMoeda = valorAtual - moedas[i + 1]
 
-                    if valorAddProxMoeda >= 0: 
-                        retornaMinimoMoedas(valorAddProxMoeda, i + 1, qntdMoedas + 1, moedas, sizeMoedas)
+						if valorAddProxMoeda >= 0: 
+							retornaMinimoMoedas(valorAddProxMoeda, i + 1, qntdMoedas + 1, moedas, sizeMoedas)
 
-                valorAddMesmaMoeda = valorAtual - moedas[i]
+					valorAddMesmaMoeda = valorAtual - moedas[i]
 
-                if valorAddMesmaMoeda >= 0:
-                    retornaMinimoMoedas(valorAddMesmaMoeda, i, qntdMoedas + 1, moedas, sizeMoedas)
-                
-                retornaMinimoMoedas(valorAtual, i + 1, qntdMoedas, moedas, sizeMoedas)
+					if valorAddMesmaMoeda >= 0:
+						retornaMinimoMoedas(valorAddMesmaMoeda, i, qntdMoedas + 1, moedas, sizeMoedas)
+					
+					retornaMinimoMoedas(valorAtual, i + 1, qntdMoedas, moedas, sizeMoedas)
 	
 
