@@ -17,7 +17,7 @@ def retorna_matriculas_decrescente(alist):
 # Caso o valor não possa ser alcançado pela combinação de moedas o valor -1 é retornado Ex: valor = 11  moedas = {5, 10, 25}
 # Assuma que existe uma quantidade infinita de cada tipo de moeda
 def retorna_minimo_moedas(valor, tipos_moedas):
-	print valor, tipos_moedas
+	
 	resultado = retorna_minimo_moedas_FB(tipos_moedas, valor)
 	if resultado == sys.maxint:
 		return -1
@@ -25,16 +25,18 @@ def retorna_minimo_moedas(valor, tipos_moedas):
 		return resultado
 
 def retorna_minimo_moedas_FB(tipos_moedas, valor):
-	if valor == 0:
-		return 0
 	
-	resultado = sys.maxint
-	
-	for moeda in tipos_moedas:
-		
-		if (moeda <= valor):
-			resultado = min(resultado, retorna_minimo_moedas_FB(tipos_moedas, valor - moeda) + 1) 
-		
-	return resultado	 
+    tipos_moedas.sort(reverse = True)
+    qntdMoedas = 0
+
+    for moeda in tipos_moedas:
+
+        if moeda <= valor:
+
+            qntdMoedas += valor / moeda
+            valor = valor % moeda
+
+    if valor == 0 : return qntdMoedas 
+    else: return -1	 
 
 
