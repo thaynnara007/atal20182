@@ -19,10 +19,8 @@ def retorna_matriculas_decrescente(alist):
 def retorna_minimo_moedas(valor, tipos_moedas):
 	
 	resultado = retorna_minimo_moedas_FB(tipos_moedas, valor)
-	if resultado == sys.maxint:
-		return -1
-	else:
-		return resultado
+	
+	return resultado
 
 def retorna_minimo_moedas_FB(tipos_moedas, valor):
 	
