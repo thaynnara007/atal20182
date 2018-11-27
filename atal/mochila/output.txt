@@ -1,300 +1,300 @@
 Caso 1: 14899
-Executou em: 0.055566 segundos
+Executou em: 0.07003 segundos
 
 Caso 2: 10998
-Executou em: 0.046583 segundos
+Executou em: 0.049533 segundos
 
 Caso 3: 15375
-Executou em: 0.045351 segundos
+Executou em: 0.049846 segundos
 
 Caso 4: 14692
-Executou em: 0.050171 segundos
+Executou em: 0.051633 segundos
 
 Caso 5: 14445
-Executou em: 0.046362 segundos
+Executou em: 0.049461 segundos
 
 Caso 6: 14758
-Executou em: 0.045412 segundos
+Executou em: 0.049309 segundos
 
 Caso 7: 14193
-Executou em: 0.045254 segundos
+Executou em: 0.049226 segundos
 
 Caso 8: 14008
-Executou em: 0.046891 segundos
+Executou em: 0.049344 segundos
 
 Caso 9: 15766
-Executou em: 0.045247 segundos
+Executou em: 0.049493 segundos
 
 Caso 10: 16496
-Executou em: 0.045206 segundos
+Executou em: 0.049256 segundos
 
 Caso 11: 13110
-Executou em: 0.045464 segundos
+Executou em: 0.050117 segundos
 
 Caso 12: 13521
-Executou em: 0.045424 segundos
+Executou em: 0.049642 segundos
 
 Caso 13: 11147
-Executou em: 0.045294 segundos
+Executou em: 0.049115 segundos
 
 Caso 14: 13387
-Executou em: 0.045297 segundos
+Executou em: 0.049136 segundos
 
 Caso 15: 13488
-Executou em: 0.045229 segundos
+Executou em: 0.049523 segundos
 
 Caso 16: 13948
-Executou em: 0.045289 segundos
+Executou em: 0.049738 segundos
 
 Caso 17: 15701
-Executou em: 0.045325 segundos
+Executou em: 0.049141 segundos
 
 Caso 18: 14015
-Executou em: 0.045383 segundos
+Executou em: 0.049321 segundos
 
 Caso 19: 16864
-Executou em: 0.046639 segundos
+Executou em: 0.049253 segundos
 
 Caso 20: 16387
-Executou em: 0.045345 segundos
+Executou em: 0.04938 segundos
 
 Caso 21: 12135
-Executou em: 0.045493 segundos
+Executou em: 0.054964 segundos
 
 Caso 22: 14365
-Executou em: 0.045776 segundos
+Executou em: 0.070229 segundos
 
 Caso 23: 12870
-Executou em: 0.046866 segundos
+Executou em: 0.05218 segundos
 
 Caso 24: 16303
-Executou em: 0.048321 segundos
+Executou em: 0.068728 segundos
 
 Caso 25: 18510
-Executou em: 0.045516 segundos
+Executou em: 0.051318 segundos
 
 Caso 26: 14672
-Executou em: 0.045881 segundos
+Executou em: 0.049282 segundos
 
 Caso 27: 13216
-Executou em: 0.04523 segundos
+Executou em: 0.05387 segundos
 
 Caso 28: 15501
-Executou em: 0.045199 segundos
+Executou em: 0.049204 segundos
 
 Caso 29: 17950
-Executou em: 0.045212 segundos
+Executou em: 0.04958 segundos
 
 Caso 30: 13431
-Executou em: 0.051136 segundos
+Executou em: 0.050144 segundos
 
 Caso 31: 15715
-Executou em: 0.045882 segundos
+Executou em: 0.049603 segundos
 
 Caso 32: 11862
-Executou em: 0.045289 segundos
+Executou em: 0.049147 segundos
 
 Caso 33: 14609
-Executou em: 0.045369 segundos
+Executou em: 0.053345 segundos
 
 Caso 34: 13944
-Executou em: 0.045342 segundos
+Executou em: 0.049228 segundos
 
 Caso 35: 13376
-Executou em: 0.045389 segundos
+Executou em: 0.049834 segundos
 
 Caso 36: 14356
-Executou em: 0.049424 segundos
+Executou em: 0.049304 segundos
 
 Caso 37: 13703
-Executou em: 0.047421 segundos
+Executou em: 0.049111 segundos
 
 Caso 38: 14244
-Executou em: 0.045391 segundos
+Executou em: 0.049336 segundos
 
 Caso 39: 11385
-Executou em: 0.045358 segundos
+Executou em: 0.04984 segundos
 
 Caso 40: 12038
-Executou em: 0.0453 segundos
+Executou em: 0.049867 segundos
 
 Caso 41: 16594
-Executou em: 0.046688 segundos
+Executou em: 0.053119 segundos
 
 Caso 42: 13335
-Executou em: 0.045348 segundos
+Executou em: 0.055074 segundos
 
 Caso 43: 15280
-Executou em: 0.045578 segundos
+Executou em: 0.0496 segundos
 
 Caso 44: 16742
-Executou em: 0.045451 segundos
+Executou em: 0.049215 segundos
 
 Caso 45: 18052
-Executou em: 0.045233 segundos
+Executou em: 0.049271 segundos
 
 Caso 46: 13185
-Executou em: 0.045374 segundos
+Executou em: 0.049447 segundos
 
 Caso 47: 15085
-Executou em: 0.045297 segundos
+Executou em: 0.04944 segundos
 
 Caso 48: 12330
-Executou em: 0.045274 segundos
+Executou em: 0.049392 segundos
 
 Caso 49: 13451
-Executou em: 0.045242 segundos
+Executou em: 0.049177 segundos
 
 Caso 50: 11428
-Executou em: 0.045306 segundos
+Executou em: 0.04987 segundos
 
 Caso 51: 19361
-Executou em: 0.045243 segundos
+Executou em: 0.049802 segundos
 
 Caso 52: 15532
-Executou em: 0.046711 segundos
+Executou em: 0.049793 segundos
 
 Caso 53: 14833
-Executou em: 0.04545 segundos
+Executou em: 0.049223 segundos
 
 Caso 54: 14219
-Executou em: 0.045335 segundos
+Executou em: 0.0494 segundos
 
 Caso 55: 16216
-Executou em: 0.045427 segundos
+Executou em: 0.049706 segundos
 
 Caso 56: 14977
-Executou em: 0.045407 segundos
+Executou em: 0.049119 segundos
 
 Caso 57: 15319
-Executou em: 0.045347 segundos
+Executou em: 0.049407 segundos
 
 Caso 58: 14382
-Executou em: 0.045431 segundos
+Executou em: 0.049233 segundos
 
 Caso 59: 11734
-Executou em: 0.045266 segundos
+Executou em: 0.049326 segundos
 
 Caso 60: 15516
-Executou em: 0.045313 segundos
+Executou em: 0.049697 segundos
 
 Caso 61: 15688
-Executou em: 0.045427 segundos
+Executou em: 0.049712 segundos
 
 Caso 62: 14129
-Executou em: 0.045232 segundos
+Executou em: 0.049054 segundos
 
 Caso 63: 15938
-Executou em: 0.046755 segundos
+Executou em: 0.049453 segundos
 
 Caso 64: 13815
-Executou em: 0.045323 segundos
+Executou em: 0.049288 segundos
 
 Caso 65: 15413
-Executou em: 0.045438 segundos
+Executou em: 0.049329 segundos
 
 Caso 66: 17001
-Executou em: 0.045447 segundos
+Executou em: 0.049308 segundos
 
 Caso 67: 15450
-Executou em: 0.045234 segundos
+Executou em: 0.049273 segundos
 
 Caso 68: 15893
-Executou em: 0.045335 segundos
+Executou em: 0.049943 segundos
 
 Caso 69: 13652
-Executou em: 0.045306 segundos
+Executou em: 0.049314 segundos
 
 Caso 70: 15885
-Executou em: 0.045484 segundos
+Executou em: 0.049223 segundos
 
 Caso 71: 14509
-Executou em: 0.045348 segundos
+Executou em: 0.049983 segundos
 
 Caso 72: 15245
-Executou em: 0.045282 segundos
+Executou em: 0.049306 segundos
 
 Caso 73: 18331
-Executou em: 0.045212 segundos
+Executou em: 0.049203 segundos
 
 Caso 74: 13531
-Executou em: 0.046687 segundos
+Executou em: 0.049401 segundos
 
 Caso 75: 17206
-Executou em: 0.045254 segundos
+Executou em: 0.049928 segundos
 
 Caso 76: 16673
-Executou em: 0.045262 segundos
+Executou em: 0.049142 segundos
 
 Caso 77: 16422
-Executou em: 0.045306 segundos
+Executou em: 0.049173 segundos
 
 Caso 78: 14425
-Executou em: 0.045345 segundos
+Executou em: 0.049202 segundos
 
 Caso 79: 13851
-Executou em: 0.045314 segundos
+Executou em: 0.050123 segundos
 
 Caso 80: 11777
-Executou em: 0.045272 segundos
+Executou em: 0.049285 segundos
 
 Caso 81: 14133
-Executou em: 0.045318 segundos
+Executou em: 0.049958 segundos
 
 Caso 82: 18110
-Executou em: 0.04529 segundos
+Executou em: 0.04929 segundos
 
 Caso 83: 15276
-Executou em: 0.045396 segundos
+Executou em: 0.0495 segundos
 
 Caso 84: 11434
-Executou em: 0.045252 segundos
+Executou em: 0.049389 segundos
 
 Caso 85: 14268
-Executou em: 0.046841 segundos
+Executou em: 0.049239 segundos
 
 Caso 86: 15281
-Executou em: 0.045488 segundos
+Executou em: 0.049303 segundos
 
 Caso 87: 17279
-Executou em: 0.045827 segundos
+Executou em: 0.049405 segundos
 
 Caso 88: 14390
-Executou em: 0.045607 segundos
+Executou em: 0.049219 segundos
 
 Caso 89: 17529
-Executou em: 0.045805 segundos
+Executou em: 0.051129 segundos
 
 Caso 90: 16467
-Executou em: 0.04584 segundos
+Executou em: 0.049567 segundos
 
 Caso 91: 15630
-Executou em: 0.04534 segundos
+Executou em: 0.049934 segundos
 
 Caso 92: 15394
-Executou em: 0.045343 segundos
+Executou em: 0.049262 segundos
 
 Caso 93: 14756
-Executou em: 0.045182 segundos
+Executou em: 0.049163 segundos
 
 Caso 94: 14465
-Executou em: 0.045284 segundos
+Executou em: 0.04932 segundos
 
 Caso 95: 16139
-Executou em: 0.045247 segundos
+Executou em: 0.049607 segundos
 
 Caso 96: 15471
-Executou em: 0.046756 segundos
+Executou em: 0.049297 segundos
 
 Caso 97: 16367
-Executou em: 0.045486 segundos
+Executou em: 0.049669 segundos
 
 Caso 98: 15548
-Executou em: 0.045388 segundos
+Executou em: 0.049174 segundos
 
 Caso 99: 15327
-Executou em: 0.045512 segundos
+Executou em: 0.049342 segundos
 
 Caso 100: 16023
-Executou em: 0.045606 segundos
+Executou em: 0.050059 segundos
 
