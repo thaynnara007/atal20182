@@ -48,7 +48,7 @@ def mochila_binaria(peso_maximo, pesos, valores, n):
     for item in xrange(1, n + 1):
         for capacidade in xrange(1, peso_maximo + 1):
 
-            if pesos[item] > capacidade: dp[item][capacidade] = dp[item - 1][capacidade]
-            else: dp[item][capacidade] = max(dp[item - 1][capacidade], dp[item - 1][capacidade - pesos[item]] + valores[item])
+            if pesos[item - 1] > capacidade: dp[item][capacidade] = dp[item - 1][capacidade]
+            else: dp[item][capacidade] = max(dp[item - 1][capacidade], dp[item - 1][capacidade - pesos[item - 1]] + valores[item - 1])
     
     return dp[-1][-1]
